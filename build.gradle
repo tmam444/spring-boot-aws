@@ -1,5 +1,3 @@
-import sun.tools.java.ClassPath
-
 buildscript {
     ext {
         springBootVersion = '2.1.7.RELEASE'
@@ -14,7 +12,7 @@ buildscript {
 }
 
 apply plugin: 'java'
-apply plugin: 'eclipse'
+apply plugin: 'idea'
 apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
 
